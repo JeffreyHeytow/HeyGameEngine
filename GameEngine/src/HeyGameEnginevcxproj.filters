@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel_Cube.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicColorByPosition.cpp">
+      <Filter>Game Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObject.cpp">
+      <Filter>Game Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic_ByPosition.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="HeyEngine.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicWireframe.cpp">
+      <Filter>Game Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic_Wireframe.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e01be3c8-6e18-428d-9415-ccd9031e413a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_glfw">
+      <UniqueIdentifier>{d1e99522-f419-4132-b372-6218cfbf1410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_glfw\lib">
+      <UniqueIdentifier>{a836f45b-11c9-4492-9c60-f8dd52985ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_glfw\include">
+      <UniqueIdentifier>{49489779-46e9-4d54-b45e-93e51ba56c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_heyFile">
+      <UniqueIdentifier>{f7be59d0-b877-414f-a365-e8d0ea81bea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_heyFile\include">
+      <UniqueIdentifier>{3161afe8-1ef5-46bc-95f1-25034f1cf869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_heyFile\lib">
+      <UniqueIdentifier>{fe489a4a-ceb5-43f0-8e88-9b1867bcb613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_heyMath">
+      <UniqueIdentifier>{2109326f-e957-4f95-93d6-4e5e2254b44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_heyMath\include">
+      <UniqueIdentifier>{dc2291aa-38e2-4cf1-8b42-cc5789e4b33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_heyMath\lib">
+      <UniqueIdentifier>{8f5e4385-aa29-42b3-bb76-2e4750553024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_sb6">
+      <UniqueIdentifier>{073ae4dc-977d-4832-b923-136da6fc1fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_sb6\lib">
+      <UniqueIdentifier>{0cc57226-561b-483b-9687-954c2d7bc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_sb6\include">
+      <UniqueIdentifier>{5a8f188b-0355-42b6-ae5f-379742fdad8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Models">
+      <UniqueIdentifier>{ccc33635-9fe7-40ca-bc5a-28c35fb83c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{5558ff80-7f67-4871-806b-83714115a521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Graphics">
+      <UniqueIdentifier>{fc17581f-62bf-4c4a-bb0f-93dbadcee100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Process">
+      <UniqueIdentifier>{1c2bc22e-34d9-4288-b1eb-bd9be28baf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine">
+      <UniqueIdentifier>{6dfbed04-c84b-4175-9a41-0514766efa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{857fd923-4539-4a16-bead-694bac6df7ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HeyLibs\HeyMath\include\MathEngine.h">
+      <Filter>_heyMath\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HeyLibs\GLFW\include\GL\glfw.h">
+      <Filter>_glfw\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HeyLibs\SB6\include\sb6.h">
+      <Filter>_sb6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HeyLibs\HeyFile\include\File.h">
+      <Filter>_heyFile\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel_Cube.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicColorByPosition.h">
+      <Filter>Game Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObject.h">
+      <Filter>Game Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic_ByPosition.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="HeyEngine.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySetup.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicWireframe.h">
+      <Filter>Game Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic_Wireframe.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\HeyLibs\HeyMath\lib\MathEngine_debug.lib">
+      <Filter>_heyMath\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\HeyLibs\HeyMath\lib\MathEngine_release.lib">
+      <Filter>_heyMath\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\HeyLibs\GLFW\lib\GLFW_debug.lib">
+      <Filter>_glfw\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\HeyLibs\SB6\lib\sb6_debug.lib">
+      <Filter>_sb6\lib</Filter>
+    </Library>
+    <Library Include="..\..\..\HeyLibs\HeyFile\lib\File_debug.lib">
+      <Filter>_heyFile\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="render.fs.glsl">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="render.vs.glsl">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="spinnycube.rc" />
+  </ItemGroup>
+</Project>

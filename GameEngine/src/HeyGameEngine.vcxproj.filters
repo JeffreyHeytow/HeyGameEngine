@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel_Cube.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicColorByPosition.cpp">
+      <Filter>Game Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicWireframe.cpp">
+      <Filter>Game Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic_ByPosition.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic_Wireframe.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="HeyEngine.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderObject.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic_Texture.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicTexture.cpp">
+      <Filter>Game Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Game Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureNode.cpp">
+      <Filter>Game Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Game Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGraphic_Lighting.cpp">
+      <Filter>Game Process</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicLighting.cpp">
+      <Filter>Game Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Manager.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel_Pyramid.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera_Manager.cpp">
+      <Filter>Game Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel_Octo.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel_Star.cpp">
+      <Filter>Game Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\HeyLibs\HeyFile\include\File.h">
+      <Filter>_HeyFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HeyLibs\GLFW\include\GL\glfw.h">
+      <Filter>_GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HeyLibs\HeyMath\include\MathEngine.h">
+      <Filter>_HeyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HeyLibs\SB6\include\sb6.h">
+      <Filter>_SB6</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel_Cube.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderObject.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicColorByPosition.h">
+      <Filter>Game Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicWireframe.h">
+      <Filter>Game Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic_ByPosition.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic_Wireframe.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="HeyEngine.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySetup.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicTexture.h">
+      <Filter>Game Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic_Texture.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureNode.h">
+      <Filter>Game Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Game Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HeyLibs\HeyTree\include\PCSNode.h">
+      <Filter>_HeyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HeyLibs\HeyTree\include\PCSTree.h">
+      <Filter>_HeyTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOut.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="_resource.h">
+      <Filter>Game Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessGraphic_Lighting.h">
+      <Filter>Game Process</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicLighting.h">
+      <Filter>Game Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Manager.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel_Pyramid.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel_Star.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera_Manager.h">
+      <Filter>Game Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera_Node.h">
+      <Filter>Game Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLibrary.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel_Octo.h">
+      <Filter>Game Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\HeyLibs\HeyFile\lib\File_debug.lib">
+      <Filter>_HeyFile</Filter>
+    </Library>
+    <Library Include="..\..\HeyLibs\GLFW\lib\GLFW_debug.lib">
+      <Filter>_GLFW</Filter>
+    </Library>
+    <Library Include="..\..\HeyLibs\HeyMath\lib\MathEngine_debug.lib">
+      <Filter>_HeyMath</Filter>
+    </Library>
+    <Library Include="..\..\HeyLibs\SB6\lib\sb6_debug.lib">
+      <Filter>_SB6</Filter>
+    </Library>
+    <Library Include="..\..\HeyLibs\HeyTree\lib\PCSTreeDebug.lib">
+      <Filter>_HeyTree</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_HeyFile">
+      <UniqueIdentifier>{d33a4d06-f99d-4a90-a596-2d01010e2cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GLFW">
+      <UniqueIdentifier>{087c986a-6f14-4996-9fce-f97f33e6d0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_HeyMath">
+      <UniqueIdentifier>{8e87b6f8-7151-4362-b6c5-0c926732869f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6">
+      <UniqueIdentifier>{78a1a019-dfd8-4327-b049-9e869c8d5687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7f35b27b-dd8a-46e0-b056-2542d4e1d88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{850cfc48-6bab-4c6a-b088-1a500220fcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Models">
+      <UniqueIdentifier>{52f0287c-1ed7-41e0-a055-1818090cd3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Textures">
+      <UniqueIdentifier>{0cba49a8-2c93-4148-8d62-e486e540bf35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Process">
+      <UniqueIdentifier>{cf8cef49-6487-468a-9fa8-1ff9e2ccd436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine">
+      <UniqueIdentifier>{48f719cd-9b8a-4258-aa46-62a6cb5d0526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Resources">
+      <UniqueIdentifier>{3f316e0c-1866-43ca-b964-5eeb6c9dfb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Input">
+      <UniqueIdentifier>{950e0106-c5f1-4c46-b0ef-806d78b806d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_HeyTree">
+      <UniqueIdentifier>{b720b889-c52e-4e30-979b-8e3eeef9c66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Camera">
+      <UniqueIdentifier>{85082bec-bf91-46ea-a753-8ea29c353c39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="colorRender.fs.glsl">
+      <Filter>Game Resources</Filter>
+    </None>
+    <None Include="colorRender.vs.glsl">
+      <Filter>Game Resources</Filter>
+    </None>
+    <None Include="textureRender.fs.glsl">
+      <Filter>Game Resources</Filter>
+    </None>
+    <None Include="textureRender.vs.glsl">
+      <Filter>Game Resources</Filter>
+    </None>
+    <None Include="LightDiffRender.fs.glsl">
+      <Filter>Game Resources</Filter>
+    </None>
+    <None Include="LightDiffRender.vs.glsl">
+      <Filter>Game Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_spinnycube.rc">
+      <Filter>Game Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

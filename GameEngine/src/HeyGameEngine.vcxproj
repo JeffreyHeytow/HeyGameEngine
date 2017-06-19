@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\HeyLibs\GLFW\include;$(SolutionDir)..\HeyLibs\SB6\include;$(SolutionDir)..\HeyLibs\HeyMath\include;$(SolutionDir)..\HeyLibs\HeyFile\include;$(SolutionDir)..\HeyLibs\HeyTree\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Camera_Manager.cpp" />
+    <ClCompile Include="GameModel.cpp" />
+    <ClCompile Include="GameModel_Cube.cpp" />
+    <ClCompile Include="GameModel_Octo.cpp" />
+    <ClCompile Include="GameModel_Pyramid.cpp" />
+    <ClCompile Include="GameModel_Star.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObject_Manager.cpp" />
+    <ClCompile Include="GraphicColorByPosition.cpp" />
+    <ClCompile Include="GraphicLighting.cpp" />
+    <ClCompile Include="GraphicObject.cpp" />
+    <ClCompile Include="GraphicTexture.cpp" />
+    <ClCompile Include="GraphicWireframe.cpp" />
+    <ClCompile Include="HeyEngine.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ProcessGraphic_Lighting.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="ProcessGraphic.cpp" />
+    <ClCompile Include="ProcessGraphic_ByPosition.cpp" />
+    <ClCompile Include="ProcessGraphic_Texture.cpp" />
+    <ClCompile Include="ProcessGraphic_Wireframe.cpp" />
+    <ClCompile Include="ShaderObject.cpp" />
+    <ClCompile Include="TextureNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\HeyLibs\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\..\HeyLibs\HeyFile\include\File.h" />
+    <ClInclude Include="..\..\HeyLibs\HeyMath\include\MathEngine.h" />
+    <ClInclude Include="..\..\HeyLibs\HeyTree\include\PCSNode.h" />
+    <ClInclude Include="..\..\HeyLibs\HeyTree\include\PCSTree.h" />
+    <ClInclude Include="..\..\HeyLibs\SB6\include\sb6.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Camera_Manager.h" />
+    <ClInclude Include="Camera_Node.h" />
+    <ClInclude Include="DebugOut.h" />
+    <ClInclude Include="GameLibrary.h" />
+    <ClInclude Include="GameModel.h" />
+    <ClInclude Include="GameModel_Cube.h" />
+    <ClInclude Include="GameModel_Octo.h" />
+    <ClInclude Include="GameModel_Pyramid.h" />
+    <ClInclude Include="GameModel_Star.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject_Manager.h" />
+    <ClInclude Include="GraphicColorByPosition.h" />
+    <ClInclude Include="GraphicLighting.h" />
+    <ClInclude Include="GraphicObject.h" />
+    <ClInclude Include="GraphicTexture.h" />
+    <ClInclude Include="GraphicWireframe.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="ProcessGraphic.h" />
+    <ClInclude Include="HeyEngine.h" />
+    <ClInclude Include="LibrarySetup.h" />
+    <ClInclude Include="ProcessGraphic_ByPosition.h" />
+    <ClInclude Include="ProcessGraphic_Lighting.h" />
+    <ClInclude Include="ProcessGraphic_Texture.h" />
+    <ClInclude Include="ProcessGraphic_Wireframe.h" />
+    <ClInclude Include="_resource.h" />
+    <ClInclude Include="ShaderObject.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TextureNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\HeyLibs\GLFW\lib\GLFW_debug.lib" />
+    <Library Include="..\..\HeyLibs\HeyFile\lib\File_debug.lib" />
+    <Library Include="..\..\HeyLibs\HeyMath\lib\MathEngine_debug.lib" />
+    <Library Include="..\..\HeyLibs\HeyTree\lib\PCSTreeDebug.lib" />
+    <Library Include="..\..\HeyLibs\SB6\lib\sb6_debug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_spinnycube.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="colorRender.fs.glsl" />
+    <None Include="colorRender.vs.glsl" />
+    <None Include="LightDiffRender.fs.glsl" />
+    <None Include="LightDiffRender.vs.glsl" />
+    <None Include="textureRender.fs.glsl" />
+    <None Include="textureRender.vs.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
